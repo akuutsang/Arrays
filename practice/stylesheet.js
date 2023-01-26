@@ -3,7 +3,7 @@ const inventors = [
     {first: "Isaac", last: "Newton", year: 1643, passed:1727},
     {first: "Galileo", last: "Galilei", year: 1564, passed:1642},
     {first: "Marie", last: "Curie", year: 1867, passed:1934},
-    {first: "Johannes", last: "Kepler", year: 2571, passed:1630},
+    {first: "Johannes", last: "Kepler", year: 1571, passed:1630},
     {first: "Nicolaus", last: "Copernicus", year: 1473, passed:1543},
     {first: "Max", last: "Planck", year: 1858, passed:1947},
 ];
@@ -33,6 +33,8 @@ console.table(fifteen)
 // Array.prototype.map()
 // 2. Give us an array of the inventory first and last names
 
+const fullnames = inventors.map(inventor => inventor.first + inventor.last);
+console.log(fullnames);
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdays, oldest to youngest
 
