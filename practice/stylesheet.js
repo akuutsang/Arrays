@@ -51,7 +51,7 @@ console.log(fullnames);
 // OR USE A TERNARARY OPERATOR 
 
 const ordered = inventors.sort((a,b) => a.year > b.year ? 1 : -1)
-
+console.table(ordered);
 
 
 // Array.prototype.reduce()
