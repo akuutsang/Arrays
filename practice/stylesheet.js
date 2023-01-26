@@ -8,3 +8,14 @@ const inventors = [
     {first: "Max", last: "Planck", year: 1858, passed:1947},
 ];
 
+const people = [ "Beck, Glenn", "Becker, Carl", "Beckett, Samuel", "Beddoes, Mick",
+"Beecher, Henry", "Beethoven, Ludwig", "Begin, Menachem", "Belloc, Hilaire", 
+"Bellow, Saul", "Benchley, Robert", "Beneson, Peter", "Ben-Gurion, David", 
+"Benjamin, Walter", "Benn, Tony", "Bennington, Chester", "Benson, Leana",  "Bent,Silas",
+"Bentson, Lloyd", "Berger, Ric", "Bergman, Ingmar", "Berio, Luciano","Berle, Milton",
+"Berlin, Irving", "Bernie, Eric", "Beinhard, Sandra", "Berra, Yogi", 
+"Berry, Halle", "Berry, Wendell", "Bethea, Erin", "Bevan, Anuerin", "Bevel, Ken",
+"Biden, Joseph", "Bierce, Ambrose", "Biko, Steve", "Billings, Josh", "Blondo, Frank",
+"Birell, Augustine", "Black Elk", "Blair, Robert", "Blair, Tony,", "Blake, William"]
+
+
